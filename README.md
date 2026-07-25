@@ -298,7 +298,9 @@ Live end-to-end check against TradingView. Makes about 5 real requests.
 
 MIT. See [LICENSE](LICENSE).
 
-Pine Script collected with this tool remains the property of its original authors.
+Pine Script collected with this tool remains the copyright of its original authors on
+TradingView. This project is not affiliated with or endorsed by TradingView. See
+[NOTICE.md](NOTICE.md).
 
 ---
 
