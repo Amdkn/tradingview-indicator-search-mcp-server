@@ -1,0 +1,48 @@
+{
+  "name": "tradingview-indicator-search-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server to search TradingView indicators and strategies and fetch their Pine Script source. Works with Claude Code, Claude Desktop and Cursor. No API key required.",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "tradingview",
+    "pine-script",
+    "pinescript",
+    "trading",
+    "indicators",
+    "trading-strategies",
+    "backtesting",
+    "claude",
+    "claude-desktop",
+    "cursor",
+    "ai-agents",
+    "technical-analysis"
+  ],
+  "homepage": "https://github.com/daviddme/tradingview-indicator-search-mcp-server#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddme/tradingview-indicator-search-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daviddme/tradingview-indicator-search-mcp-server/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  }
+}
